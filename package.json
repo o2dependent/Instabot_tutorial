@@ -1,0 +1,17 @@
+{
+	"name": "puppeteer-projects",
+	"version": "1.0.0",
+	"description": "",
+	"main": "instabot.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"puppeteer": "^5.4.1",
+		"puppeteer-extra": "^3.1.15",
+		"puppeteer-extra-plugin-stealth": "^2.6.5"
+	}
+}
