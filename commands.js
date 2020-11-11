@@ -39,4 +39,7 @@ async () => {
 	// * $$ / $ / $x - Element selectors (select all / select one / select xpath)
 	const photos = await page.$$('.photo'); // Will return an array of all element with the class of photo
 	const photo = await page.$('.photo'); // Will return the first element with the class of photo
+	const photo = await page.$x(
+		'//*[@id="reach-skip-nav"]/section/div[2]/div[2]/div[8]/div/div[2]/a/h5'
+	);
 };
